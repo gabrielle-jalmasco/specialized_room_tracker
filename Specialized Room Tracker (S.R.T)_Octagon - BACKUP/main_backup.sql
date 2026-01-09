@@ -14,7 +14,7 @@ CREATE TABLE IF NOT EXISTS users (
 SELECT * FROM users;
 
 CREATE TABLE IF NOT EXISTS rooms (
-    ropom_id INT AUTO_INCREMENT PRIMARY KEY,
+    room_id INT AUTO_INCREMENT PRIMARY KEY,
     room_name VARCHAR(255) NOT NULL,
     capacity INT NOT NULL,
     equipment_list TEXT,
